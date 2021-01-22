@@ -7,8 +7,8 @@
     width: 500px;
     height: 200px;
     border: 1px solid black;
-    position: relative;
-    left: 50%;
+    position: absolute;
+    left: 15%;
 }
 
 #character{
@@ -36,7 +36,7 @@
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block 1s infinite;
+    animation: block 1.1s infinite;
 }
 
 @keyframes block{
