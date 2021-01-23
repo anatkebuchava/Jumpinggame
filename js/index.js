@@ -17,6 +17,6 @@ var checkDead = setInterval(function(){
         characterTop>=130){
             block.style.animation = "none";
             block.style.display = "none";
-            alert("u lose");
+            alert("whoopsy! Refresh to play again");
         }
 },10);
